@@ -4,7 +4,7 @@
     ".*"
   ],
   "localPath" : ".",
-  "remotePath" : "\/home\/www\/sandbox-one",
+  "remotePath" : "\/home\/www\/sandbox",
   "remoteURL" : "https:\/\/sandbox.fyrf.li",
   "server" : "sandbox",
   "usesPublishing" : true
