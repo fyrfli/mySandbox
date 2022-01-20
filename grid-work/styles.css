@@ -1,0 +1,46 @@
+/* body {
+	margin: 60px auto;
+	background-color: white;
+} */
+
+/* Original style */
+.site-title {
+	display: block;
+	margin: 4rem auto;  
+	width: 18em;
+	padding: 6px; 
+	border: 1px solid darkgray;
+	border-radius: 10px;
+	box-shadow: 2px 4px 26px lightgray;
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	width: 20rem;
+}
+
+/* New styles */
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	background-color: white;
+	width: 180rem;
+}
+
+.intro {
+	flex-grow: 1;
+	background-color: aquamarine;
+	align-items: center;
+}
+
+
+.para {
+	flex-grow: 2;
+	background-color: cornflowerblue;
+	align-items: center;
+}

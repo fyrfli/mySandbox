@@ -1,4 +1,6 @@
 {
+  "workspace.art_style" : 0,
+  "workspace.color" : 8,
   "workspace.name" : "Sanbox",
   "workspace.preview_server_port" : 8080
 }
