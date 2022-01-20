@@ -11,6 +11,7 @@
 			margin: 10px auto;
 			padding: 25px;
 			font-size: 1.1em;
+			background-color: bisque;
 		} 
 		
 		header {
@@ -22,9 +23,8 @@
 			margin: 10px auto;
 			text-align: center;
 			width: 12rem;
-			box-shadow: 4px 4px 2px lightgrey;
+			box-shadow: 4px 4px 12px grey;
 			border-radius: 10px;
-			padding: 10px;
 		}
 		
 		h1, h2, h3 {
@@ -40,10 +40,10 @@
 			padding: 20px;
 			flex-flow: row wrap;
 			gap: 20px;
-			background-color: lightgrey;
 			justify-content: space-around;
 			border-radius: 10px;
 			box-shadow: 2px 2px 12px grey;
+			background: lightsteelblue;
 		}
 		
 		article::before {
@@ -54,6 +54,7 @@
 			width: 400px;
 			padding: 20px;
 			border-radius: 6px;
+			border: 1px dotted black;
 		}
 		
 		footer {
@@ -64,10 +65,15 @@
 		
 		a {
 			text-decoration: none;
+			color: darkred;
 		}
 		a:hover {
 			cursor: pointer;
 			color: darkorchid;
+		}
+		
+		a:visited {
+			color: unset;
 		}
 	</style>
 	</head>
