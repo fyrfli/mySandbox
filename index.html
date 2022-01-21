@@ -5,77 +5,10 @@
 		<meta name="viewport" content="width=device.width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>sandbox.fyrf.li</title>
-<!-- 		<link rel="stylesheet" href="styles.css"/> -->
-	<style>
-		body {
-			margin: 10px auto;
-			padding: 25px;
-			font-size: 1.1em;
-			background-color: bisque;
-		} 
-		
-		header {
-			height: 10rem;
-		}
-		
-		img {
-			display: block;
-			margin: 10px auto;
-			text-align: center;
-			width: 12rem;
-			box-shadow: 4px 4px 12px grey;
-			border-radius: 10px;
-		}
-		
-		h1, h2, h3 {
-			height: 20px;
-			text-align: center;
-			margin-bottom: 10px;
-			padding-bottom: 10px;
-		}
-		
-		/* New styles */
-		section {
-			display: flex;
-			padding: 20px;
-			flex-flow: row wrap;
-			gap: 20px;
-			justify-content: space-around;
-			border-radius: 10px;
-			box-shadow: 2px 2px 12px grey;
-			background: lightsteelblue;
-		}
-		
-		article::before {
-		}
-		
-		article {
-			background-color: aquamarine;
-			width: 400px;
-			padding: 20px;
-			border-radius: 6px;
-			border: 1px dotted black;
-		}
-		
-		footer {
-			padding: 40px;
-			text-align: right;
-			font-size: .8em;
-		}
-		
-		a {
-			text-decoration: none;
-			color: darkred;
-		}
-		a:hover {
-			cursor: pointer;
-			color: goldenrod;
-		}
-		
-		a:visited {
-			color: darkred;
-		}
-	</style>
+		<link rel="stylesheet" href="style.css"/>
+<!-- 	<style>
+
+	</style> -->
 	</head>
 	<body>
 		<header>
@@ -107,6 +40,22 @@
 				<h3> grid work </h3>
 				<p> Copied the flex documents over to here to start learning grid. Right now, it looks exactly like flex work but it'll start looking different in the coming days (Today is 2022-01-20) - so stay tuned.</p>
 				<p><a href="grid-work">Click here</a> to see how it's going</p>
+			</article>
+			<article>
+				<h3> staggered boxes </h3>
+				<p> I am trying to work a design where the boxes flex with the screen but are staggered left, then right, then left again. It's giving me a headache but I am still trying. You can see my work in progress <a href="article-sectioning/">here</a>.</p>
+			</article>
+		</section>
+		
+		<section>
+			<article>
+				<p class="mini-footer"> Just FYI, this whole page is built with flexbox</p>
+			</article>
+			<article>
+				<p class="mini-footer"> I'm working on putting a back link to this page on all the child pages. Stay tuned."</p>
+			</article>
+			<article>
+				<p class="mini-footer"> Want more information on this? email me at my first name dot last name at camillefrantz.me</p>
 			</article>
 		</section>
 		
