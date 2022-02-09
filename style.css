@@ -16,13 +16,19 @@ img {
 	width: 12rem;
 	box-shadow: 4px 4px 12px grey;
 	border-radius: 10px;
+	border: 2px double green;
 }
 
-h1, h2, h3 {
+h1 {
 	height: 20px;
 	text-align: center;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
+}
+
+h2 {
+	text-align: center;
+	display: block;
 }
 
 /* New styles */
