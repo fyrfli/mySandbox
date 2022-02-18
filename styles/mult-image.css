@@ -1,14 +1,10 @@
 .container {
-/* 				background: fixed url("img/40MilesToKingston.png") left 2% no-repeat,
-                fixed url("img/Casper.png") right 10px no-repeat ,
-                fixed url("img/Draega.png") left 10px no-repeat ,
-                fixed url("img/OneFootInEandWBerlin.png") right 10px no-repeat ;  */
     margin: 10% auto;
     padding: 10px;
-    background-image: url("img/40MilesToKingston.png"), 
-                        url("img/Casper.png"),
-                        url("img/Draega.png"),
-                        url("img/OneFootInEandWBerlin.png");
+    background-image: url("https://cloud.fyrfli.me/s/wicTDPqP63y6ZWK/preview"), 
+                        url("https://cloud.fyrfli.me/s/piBx3X7KG8RGAsi/preview"),
+                        url("https://cloud.fyrfli.me/s/8asRo4aWpyATY6W/preview"),
+                        url("https://cloud.fyrfli.me/s/HJztx2d8WACBQjW/preview");
     width: 800px;
     height: auto;
     background-clip: padding-box;
