@@ -1,0 +1,62 @@
+html {
+    font-family: "Bitter", serif;
+}
+
+body {
+    width: 80%;
+    margin: 50px auto;
+}
+h1, h2, h3 {
+    text-shadow: 0 2px 30px black;
+}
+
+.container {
+    background-color: aquamarine;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    align-items: baseline; 
+    padding: 20px;
+    border-radius: 10px;
+}
+.container h1 {
+    flex-basis: 100%;
+    text-align: center;
+}
+.box {
+    /* flex-direction: column; */
+    background-color: azure;
+    padding: 10px 8px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px grey;
+    /* width: 200px; */
+    height: auto;
+}
+.box h2 {
+    text-align: center;
+}
+.box1 {
+    flex: 4 1 100%;
+}
+.box2 {
+    flex: 1 2;
+}
+.box3 {
+    flex: 1 2;
+}
+.box4 {
+    flex: 1 2;
+}
+.box5{
+    flex: 1 2;
+}
+.box6 {
+    flex: 4 1 100%;
+}
+
+footer {
+    padding: 40px;
+    text-align: right;
+    font-size: .7em;
+    font-style: oblique;
+}

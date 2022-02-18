@@ -1,0 +1,65 @@
+/* Generics */
+html {
+    font-family: "Bitter", serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+/* Start debug code */
+    background-color: aqua;
+/* End debug code */
+}
+.header {
+    flex: 0 0 100%;
+    margin: 10px auto;
+    padding: 10px 0;
+/* Start debug code */
+    background-color: #18b39e;
+/* End debug code */
+}
+.intro {
+/* Start debug code */
+    background-color: #1841b39a;
+/* End debug code */
+    padding: 20px;
+}
+
+.about-me {
+    display: flex;
+    flex-flow: row wrap;
+/* Start debug code */
+    background-color: #0000ffa9;
+    padding: 20px;
+}
+
+.portrait {
+    background-image: url(../images/cf.png);
+    padding: 230px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px #808080;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    /* margin: 10px auto; */
+    width: fit-content;
+    box-sizing: border-box;
+}
+.summary {
+    color: #ffffff;
+    flex: 0 1 50%;
+    padding: 25px;
+}
+.footer {
+    /* Start debug  code */
+    background-color: #da7989;
+    /* End debug code */
+    padding: 30px;
+    text-align: right;
+    margin: 10px 0;
+}
