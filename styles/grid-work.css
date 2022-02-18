@@ -1,0 +1,79 @@
+body {
+    font-family: "Roboto Slab", serif;
+    width: 80%;
+    margin: 10px auto;
+}
+h* {
+    margin: o;
+}
+
+.headline {
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 60px;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #19361edf;
+}
+.container {
+    padding: 40px;
+    background-color: #2d4129;
+    margin: auto;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 14px #0000009a;
+}
+.box:nth-child(even) {
+    background-color: #606F38ff;
+}
+.box:nth-child(odd) {
+    background-color: #606F389a;
+}
+.box h2 {
+    display: inline;
+    float: left;
+    padding-right: 16px;
+    padding-bottom: 0;
+}
+.box-a {
+    grid-area: t-one;
+}
+.box-b {
+    grid-area: t-two;
+}
+.box-c {
+    grid-area: t-three;
+}
+.box-d {
+    grid-area: t-four;
+}
+.box-e {
+    grid-area: t-mid;
+    background-image: url('../images/yarrow-stalks-for-the-i-ching.jpg');
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-origin: border-box;
+    background-size: cover;
+}
+
+.da-grid {
+    padding: 40px;
+    background-color: #808088;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    /* text-align: center; */
+    gap: 20px;
+    grid-template-areas: 
+        "t-one t-one t-one t-two t-two"
+        "t-one t-one t-one t-two t-two"
+        "t-four t-four t-mid t-two t-two"
+        "t-four t-four t-three t-three t-three"
+        "t-four t-four t-three t-three t-three";
+}
+.name {
+    text-align: end;
+}

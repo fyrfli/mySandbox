@@ -1,0 +1,148 @@
+html {
+	font-family: "Bitter", serif;
+	font-size: 18px;
+}
+body {
+
+	margin: 0 12%;
+	background-color: rgba(221, 215, 215, .6);
+}
+
+a {
+	text-decoration: none;
+}
+
+p{
+	padding: 15px;
+}
+
+a:hover {
+	text-decoration: underline overline;
+	line-height: 1.2em;
+}
+
+.heading {
+	background-color: rgba(71, 105, 223, .8);
+	color: #ffffff;
+	padding: 18px 12px;
+	float: initial;
+	margin-top: 4%;
+	width: auto;
+	box-shadow: 0 6px rgba(128, 116, 116, .4);
+	border-radius: 10px;
+}
+
+.contact {
+	font-size: .8em;
+	background-color: rgba(71, 105, 223, 1);
+	padding: 10px 12px;
+	border-radius: 10px;
+	box-shadow: 0 6px rgba(128, 116, 116, .4);
+	width: auto;
+	height: auto;
+	float: right;
+	margin-top: -8%;
+	margin-right: 2%;
+}
+
+.contact a {
+	color: rgba(234, 250, 118, 0.8);
+}
+
+h1 {
+	text-align: center;
+}
+
+h1 a {
+	color: #ffffff;
+}
+
+hr {
+	color: #ffffff;
+}
+
+.intro {
+	float: left;
+	margin-top: 2%;
+	width: 80%;
+	background-color: rgba(152, 97, 228, .8);
+	padding: 40px;
+	box-shadow: -3px 6px 4px rgba(128, 116, 116, .4);
+	border-radius: 10px;
+}
+
+.intro a {
+	color: rgba(243, 243, 243, .6)
+}
+
+.two {
+	float: right;
+	margin-top: 6%;
+	width: 80%;
+	background-color: rgba(164, 231, 136, .8);
+	padding: 40px;
+	box-shadow: 3px 6px 4px rgba(128, 116, 116, .4);
+	border-radius: 10px;
+}
+.two a {
+	color: rgba(200, 77, 222, 0.6)
+}
+
+img {
+	border: 1px rgba(128, 112, 112, .4) solid;
+	padding: 10px;
+	box-shadow: 4px 4px 4px rgba(128,116,112,.4);
+	float: right;
+	vertical-align: middle;
+	margin: 2%;
+	width: 35%;
+	height: auto;
+}
+
+.three {
+	float: left;
+	margin-top: 6%;
+	width: 80%;
+	background-color: rgba(223, 168, 123, .8);
+	padding: 40px;
+	box-shadow: 3px 6px 4px rgba(128, 116, 116, .4);
+	border-radius: 10px;
+}
+
+.three a {
+	color: rgba(0, 157, 255, 0.8);
+}
+
+.separator {
+	font-size: 4em;
+	line-height: 1em;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.four {
+	float: right;
+	margin-top: 6%;
+	width: 80%;
+	background-color: rgba(185, 123, 153, 0.8);
+	padding: 40px;
+	box-shadow: -3px 6px 4px rgba(128, 116, 116, .4);
+	border-radius: 10px;
+}
+
+.four a {
+	color: rgba(48, 140, 91, 0.8);
+}
+
+footer {
+	clear: both;
+	font-size: .7em;
+	text-align: right;
+	padding: 20px;
+}
+
+.spacer {
+	display: block;
+	padding: 20px;
+}

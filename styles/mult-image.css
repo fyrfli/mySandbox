@@ -1,0 +1,31 @@
+.container {
+/* 				background: fixed url("img/40MilesToKingston.png") left 2% no-repeat,
+                fixed url("img/Casper.png") right 10px no-repeat ,
+                fixed url("img/Draega.png") left 10px no-repeat ,
+                fixed url("img/OneFootInEandWBerlin.png") right 10px no-repeat ;  */
+    margin: 10% auto;
+    padding: 10px;
+    background-image: url("img/40MilesToKingston.png"), 
+                        url("img/Casper.png"),
+                        url("img/Draega.png"),
+                        url("img/OneFootInEandWBerlin.png");
+    width: 800px;
+    height: auto;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-position: 10% 2%, 65% 35%, 30% 105%, 70% 135%;
+/* 				background-size: 20%, 20%, 20%, 20%; */
+    background-size: 30%, 30%, 30%, 40%;
+    background-attachment: fixed, fixed, fixed, fixed;
+}
+.text {
+    color: grey;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    background-color: whitesmoke;
+    align-items: center;
+    border: 10px double green;
+    width: 800px;
+    margin: 20% auto;
+}
