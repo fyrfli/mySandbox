@@ -1,24 +1,6 @@
 # Sub-projects of Sandbox
 
-- [Overview](#overview)
-    - [Subprojects](#sub-projects)
-        - [Article sectioning](#article-sectioning)
-        - [Box Work](#box-work)
-        - [Boxes](#boxes)
-        - [CSS Menu](#css-menu)
-        - [FE](#fe)
-        - [Flex Box](#flex-box)
-        - [Flex Work](#flex-work)
-            - [Flex](#flex)
-            - [Flex001](#flex001)
-            - [Flexbox-wrap01](#flexbox-wrap01)
-        - [Grid Work](#grid-work)
-        - [Lookup](#lookup)
-        - [Multiple Background Images](#multiple-background-images)
-        - [Portfolio Sandbox](#portfolio-sandbox)
-        - [Shadows](#shadows)
-        - [Tests](#tests)
-        - [The IO](#the-io)
+[[_TOC_]]
 
 ## Overview
 

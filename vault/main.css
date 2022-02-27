@@ -1,0 +1,27 @@
+/* generic */
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+html {
+    font-size: 62.5%;
+    background-color: #ffe4c4;
+    color: #800000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* end generic */
+
+/* top section */
+.top h1 {
+    margin: 2rem auto;
+    font-size: 5rem;
+    text-align: center;
+}
+/* end top */
+
+/* main section */
+/* end main */
+
+/* footer */
+/* end footer */
