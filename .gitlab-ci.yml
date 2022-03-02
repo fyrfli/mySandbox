@@ -17,7 +17,7 @@ pages:
   - cp -r styles .public
   - cp *.html .public
   - scp -r .public $SSH_USER@$CFVM_IPADDRESS:$CFVM_HOME
-  - rm .public
+  - rm -rf .public
   artifacts:
     paths:
     - public
