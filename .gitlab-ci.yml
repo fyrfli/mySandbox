@@ -11,7 +11,13 @@ pages:
   - ssh-keyscan $CFVM_IPADDRESS >> ~/.ssh/known_hosts
   - chmod 644 ~/.ssh/known_hosts
   script:
-  - ssh $SSH_USER@$CFVM_IPADDRESS "hostname && echo 'Welcome!!!' > welcome.txt"
+  - ssh $SSH_USER@$CFVM_IPADDRESS "hostname && echo 'Welcome!!!' > $CFVM_HOME/welcome.txt"
+  - mkdir .public
+  - cp -r images .public
+  - cp -r styles .public
+  - cp *.html .public
+  - scp .public $SSH_USER@$CFVM_IPADDRESS:$CFVM_HOME
+  - rm .public
   artifacts:
     paths:
     - public
