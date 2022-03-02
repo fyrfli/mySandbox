@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Working with SVGs</title>
+        <style>
+            body {
+                margin: 10px auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <filter id="shadow">
+                <feDropShadow dx="0.4" dy="1.2" stdDeviation="1.4" fill="lightgrey" />
+            </filter>
+            <style>
+                .mytext {
+                    font: bold 15px Georgia;
+                    fill: green;
+                    stroke: black;
+                    stroke-width: .5px;
+                    filter: url(#shadow);
+                }
+            </style>
+            <image x="4" y="4" href="images/icon-blacklist.svg" width="6" height="6" />
+            <text x="12" y="12" class="mytext">Blacklist</text>
+        </svg>
+
+    </body>
+
+</html>
