@@ -8,28 +8,41 @@
         <title>Working with SVGs</title>
         <style>
             body {
-                margin: 10px auto;
+                margin: auto;
+                text-align: center;
             }
         </style>
     </head>
 
     <body>
-        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
             <filter id="shadow">
-                <feDropShadow dx="0.4" dy="1.2" stdDeviation="1.4" fill="lightgrey" />
+                <feDropShadow dx="0.4" dy="0.6" stdDeviation=".4" fill="lightgrey" />
             </filter>
             <style>
                 .mytext {
-                    font: bold 15px Georgia;
-                    fill: green;
+                    font: bold 4px Georgia;
+                    fill: #800000;
                     stroke: black;
-                    stroke-width: .5px;
+                    stroke-width: .09px;
                     filter: url(#shadow);
                 }
             </style>
-            <image x="4" y="4" href="images/icon-blacklist.svg" width="6" height="6" />
-            <text x="12" y="12" class="mytext">Blacklist</text>
+            <image x="5" y="2" href="images/star-with-shadow.svg" width="10" height="10" class="mytext" />
+            <text x="8" y="13" class="mytext">Stars come out at night</text>
         </svg>
+
+        <div class="items">
+            <div class="item">
+                This is a test
+            </div>
+            <div class="item">
+                This is only a test
+            </div>
+            <div class="item">
+                This is a test only
+            </div>
+        </div>
 
     </body>
 
