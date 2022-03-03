@@ -1,0 +1,7 @@
+{
+    "gitlab.repositories": {
+        "/Users/fyrfli/Nextcloud/Projects/sandbox": {
+            "preferredRemoteName": "main"
+        }
+    }
+}
