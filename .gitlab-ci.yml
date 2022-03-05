@@ -2,25 +2,15 @@ image: alpine:latest
 
 pages:
   stage: deploy
-  before_script:
-  - 'command -v ssh-agent >/dev/null || ( apk add --update openssh )' 
-  - eval $(ssh-agent -s)
-  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
-  - mkdir -p ~/.ssh
-  - chmod 700 ~/.ssh
-  - ssh-keyscan $CFVM_IPADDRESS >> ~/.ssh/known_hosts
-  - chmod 644 ~/.ssh/known_hosts
   script:
-  - ssh $SSH_USER@$CFVM_IPADDRESS "hostname && echo 'Welcome!!!' > $CFVM_HOME/welcome.txt"
-  - mkdir .public
-  - cp -r images .public
-  - cp -r styles .public
-  - cp *.html .public
-  - scp -r .public/* $SSH_USER@$CFVM_IPADDRESS:$THEIO_HOME
-  - rm -rf public
-  - mv .public public
+    - mkdir .public
+    - cp -r images .public
+    - cp -r styles .public
+    - cp *.html .public
+    - rm -rf public
+    - mv .public public
   artifacts:
     paths:
-    - public
+      - public
   only:
     - master
