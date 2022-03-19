@@ -3,5 +3,6 @@
         "/Users/fyrfli/Nextcloud/Projects/sandbox": {
             "preferredRemoteName": "main"
         }
-    }
+    },
+    "liveServer.settings.port": 5501
 }
